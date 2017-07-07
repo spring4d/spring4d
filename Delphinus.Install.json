@@ -1,7 +1,7 @@
 {
   "browsing_pathes":[
     {
-      "pathes":"Source\\Base;Source\\Base\\Collections;Source\\Base\\Reflection;Source\\Core\\Container;Source\\Core\\Services;Source\\Extensions\\Cryptography;Source\\Extensions\\Utils",
+      "pathes":"Source;Source\\Base;Source\\Base\\Collections;Source\\Base\\Logging;Source\\Base\\Patches;Source\\Core\\Container;Source\\Core\\Interception;Source\\Core\\Logging;Source\\Core\\Mocking;Source\\Core\\Services;Source\\Data\\ObjectDataSet;Source\\Extensions\\Cryptography;Source\\Extensions\\Utils;Source\\Persistence\\Adapters;Source\\Persistence\\Core;Source\\Persistence\\Criteria;Source\\Persistence\\Mapping;Source\\Persistence\\SQL",
       "platforms":"Win32;Win64;OSX32;Android;IOSDevice32;IOSDevice64;Linux64"
     }
   ],
@@ -11,11 +11,19 @@
       "filter":"Credits.txt;License.txt"
     },
     {
-      "folder":"Samples",
+      "folder":"Marshmallow",
       "recursive":true
     },
     {
       "folder":"Packages",
+      "recursive":true
+    },
+    {
+      "folder":"Resources",
+      "recursive":true
+    },
+    {
+      "folder":"Samples",
       "recursive":true
     },
     {
@@ -37,7 +45,19 @@
       "compiler":22
     },
     {
+      "project":"Packages\\DelphiXE\\Spring.Data.dproj",
+      "compiler":22
+    },
+    {
+      "project":"Packages\\DelphiXE\\Spring.Data.Designtime.dproj",
+      "compiler":22
+    },
+    {
       "project":"Packages\\DelphiXE\\Spring.Extensions.dproj",
+      "compiler":22
+    },
+    {
+      "project":"Packages\\DelphiXE\\Spring.Persistence.dproj",
       "compiler":22
     },
     {
@@ -49,7 +69,19 @@
       "compiler":23
     },
     {
+      "project":"Packages\\DelphiXE2\\Spring.Data.dproj",
+      "compiler":23
+    },
+    {
+      "project":"Packages\\DelphiXE2\\Spring.Data.Designtime.dproj",
+      "compiler":23
+    },
+    {
       "project":"Packages\\DelphiXE2\\Spring.Extensions.dproj",
+      "compiler":23
+    },
+    {
+      "project":"Packages\\DelphiXE2\\Spring.Persistence.dproj",
       "compiler":23
     },
     {
@@ -61,7 +93,19 @@
       "compiler":24
     },
     {
+      "project":"Packages\\DelphiXE3\\Spring.Data.dproj",
+      "compiler":24
+    },
+    {
+      "project":"Packages\\DelphiXE3\\Spring.Data.Designtime.dproj",
+      "compiler":24
+    },
+    {
       "project":"Packages\\DelphiXE3\\Spring.Extensions.dproj",
+      "compiler":24
+    },
+    {
+      "project":"Packages\\DelphiXE3\\Spring.Persistence.dproj",
       "compiler":24
     },
     {
@@ -73,7 +117,19 @@
       "compiler":25
     },
     {
+      "project":"Packages\\DelphiXE4\\Spring.Data.dproj",
+      "compiler":25
+    },
+    {
+      "project":"Packages\\DelphiXE4\\Spring.Data.Designtime.dproj",
+      "compiler":25
+    },
+    {
       "project":"Packages\\DelphiXE4\\Spring.Extensions.dproj",
+      "compiler":25
+    },
+    {
+      "project":"Packages\\DelphiXE4\\Spring.Persistence.dproj",
       "compiler":25
     },
     {
@@ -85,7 +141,19 @@
       "compiler":26
     },
     {
+      "project":"Packages\\DelphiXE5\\Spring.Data.dproj",
+      "compiler":26
+    },
+    {
+      "project":"Packages\\DelphiXE5\\Spring.Data.Designtime.dproj",
+      "compiler":26
+    },
+    {
       "project":"Packages\\DelphiXE5\\Spring.Extensions.dproj",
+      "compiler":26
+    },
+    {
+      "project":"Packages\\DelphiXE5\\Spring.Persistence.dproj",
       "compiler":26
     },
     {
@@ -97,7 +165,19 @@
       "compiler":27
     },
     {
+      "project":"Packages\\DelphiXE6\\Spring.Data.dproj",
+      "compiler":27
+    },
+    {
+      "project":"Packages\\DelphiXE6\\Spring.Data.Designtime.dproj",
+      "compiler":27
+    },
+    {
       "project":"Packages\\DelphiXE6\\Spring.Extensions.dproj",
+      "compiler":27
+    },
+    {
+      "project":"Packages\\DelphiXE6\\Spring.Persistence.dproj",
       "compiler":27
     },
     {
@@ -109,7 +189,19 @@
       "compiler":28
     },
     {
+      "project":"Packages\\DelphiXE7\\Spring.Data.dproj",
+      "compiler":28
+    },
+    {
+      "project":"Packages\\DelphiXE7\\Spring.Data.Designtime.dproj",
+      "compiler":28
+    },
+    {
       "project":"Packages\\DelphiXE7\\Spring.Extensions.dproj",
+      "compiler":28
+    },
+    {
+      "project":"Packages\\DelphiXE7\\Spring.Persistence.dproj",
       "compiler":28
     },
     {
@@ -121,7 +213,19 @@
       "compiler":29
     },
     {
+      "project":"Packages\\DelphiXE8\\Spring.Data.dproj",
+      "compiler":29
+    },
+    {
+      "project":"Packages\\DelphiXE8\\Spring.Data.Designtime.dproj",
+      "compiler":29
+    },
+    {
       "project":"Packages\\DelphiXE8\\Spring.Extensions.dproj",
+      "compiler":29
+    },
+    {
+      "project":"Packages\\DelphiXE8\\Spring.Persistence.dproj",
       "compiler":29
     },
     {
@@ -133,7 +237,19 @@
       "compiler":30
     },
     {
+      "project":"Packages\\Delphi10Seattle\\Spring.Data.dproj",
+      "compiler":30
+    },
+    {
+      "project":"Packages\\Delphi10Seattle\\Spring.Data.Designtime.dproj",
+      "compiler":30
+    },
+    {
       "project":"Packages\\Delphi10Seattle\\Spring.Extensions.dproj",
+      "compiler":30
+    },
+    {
+      "project":"Packages\\Delphi10Seattle\\Spring.Persistence.dproj",
       "compiler":30
     },
     {
@@ -145,7 +261,19 @@
       "compiler":31
     },
     {
+      "project":"Packages\\Delphi10Berlin\\Spring.Data.dproj",
+      "compiler":31
+    },
+    {
+      "project":"Packages\\Delphi10Berlin\\Spring.Data.Designtime.dproj",
+      "compiler":31
+    },
+    {
       "project":"Packages\\Delphi10Berlin\\Spring.Extensions.dproj",
+      "compiler":31
+    },
+    {
+      "project":"Packages\\Delphi10Berlin\\Spring.Persistence.dproj",
       "compiler":31
     },
     {
@@ -157,7 +285,19 @@
       "compiler":32
     },
     {
+      "project":"Packages\\Delphi10Tokyo\\Spring.Data.dproj",
+      "compiler":32
+    },
+    {
+      "project":"Packages\\Delphi10Tokyo\\Spring.Data.Designtime.dproj",
+      "compiler":32
+    },
+    {
       "project":"Packages\\Delphi10Tokyo\\Spring.Extensions.dproj",
+      "compiler":32
+    },
+    {
+      "project":"Packages\\Delphi10Tokyo\\Spring.Persistence.dproj",
       "compiler":32
     }
   ]
