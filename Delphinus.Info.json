@@ -1,0 +1,17 @@
+{
+  "id":"{37d21484-4195-44b0-85c7-fcd4bcb88f91}",
+  "name":"Spring4D",
+  "picture":"logo.png",
+  "license_type":"Apache 2.0",
+  "license_file":"License.txt",
+  "platforms":"Win32;Win64;OSX32;Android;IOSDevice32;IOSDevice64;Linux64",
+  "package_compiler_min":21,
+  "package_compiler_max":32,
+  "compiler_min":22,
+  "compiler_max":32,
+  "repository":{
+    "type":"bitbucket",
+    "user":"sglienke",
+    "name":"spring4d"
+  }
+}
