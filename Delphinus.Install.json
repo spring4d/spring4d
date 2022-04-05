@@ -347,6 +347,30 @@
     {
       "project":"Packages\\Delphi10Sydney\\Spring.Persistence.dproj",
       "compiler":34
+    },
+    {
+      "project":"Packages\\Delphi11\\Spring.Base.dproj",
+      "compiler":35
+    },
+    {
+      "project":"Packages\\Delphi11\\Spring.Core.dproj",
+      "compiler":35
+    },
+    {
+      "project":"Packages\\Delphi11\\Spring.Data.dproj",
+      "compiler":35
+    },
+    {
+      "project":"Packages\\Delphi11\\Spring.Data.Designtime.dproj",
+      "compiler":35
+    },
+    {
+      "project":"Packages\\Delphi11\\Spring.Extensions.dproj",
+      "compiler":35
+    },
+    {
+      "project":"Packages\\Delphi11\\Spring.Persistence.dproj",
+      "compiler":35
     }
   ]
 }
