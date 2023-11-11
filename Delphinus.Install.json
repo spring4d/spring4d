@@ -1,7 +1,7 @@
 {
   "browsing_pathes":[
     {
-      "pathes":"Source;Source\\Base;Source\\Base\\Collections;Source\\Base\\Logging;Source\\Base\\Patches;Source\\Core\\Container;Source\\Core\\Interception;Source\\Core\\Logging;Source\\Core\\Mocking;Source\\Core\\Services;Source\\Data\\ObjectDataSet;Source\\Extensions\\Cryptography;Source\\Extensions\\Utils;Source\\Persistence\\Adapters;Source\\Persistence\\Core;Source\\Persistence\\Criteria;Source\\Persistence\\Mapping;Source\\Persistence\\SQL",
+      "pathes":"Source;Source\\Base;Source\\Base\\Collections;Source\\Base\\Logging;Source\\Base\\Patches;Source\\Base\\Patterns;Source\\Core\\Container;Source\\Core\\Interception;Source\\Core\\Logging;Source\\Core\\Mocking;Source\\Core\\Services;Source\\Data\\ObjectDataSet;Source\\Extensions\\Cryptography;Source\\Extensions\\Utils;Source\\Persistence\\Adapters;Source\\Persistence\\Core;Source\\Persistence\\Criteria;Source\\Persistence\\Mapping;Source\\Persistence\\SQL",
       "platforms":"Win32;Win64;OSX32;OSX64;Android;Android64;IOSDevice32;IOSDevice64;Linux64"
     }
   ],
@@ -371,6 +371,30 @@
     {
       "project":"Packages\\Delphi11\\Spring.Persistence.dproj",
       "compiler":35
+    },
+    {
+      "project":"Packages\\Delphi11\\Spring.Base.dproj",
+      "compiler":36
+    },
+    {
+      "project":"Packages\\Delphi11\\Spring.Core.dproj",
+      "compiler":36
+    },
+    {
+      "project":"Packages\\Delphi11\\Spring.Data.dproj",
+      "compiler":36
+    },
+    {
+      "project":"Packages\\Delphi11\\Spring.Data.Designtime.dproj",
+      "compiler":36
+    },
+    {
+      "project":"Packages\\Delphi11\\Spring.Extensions.dproj",
+      "compiler":36
+    },
+    {
+      "project":"Packages\\Delphi11\\Spring.Persistence.dproj",
+      "compiler":36
     }
   ]
 }
